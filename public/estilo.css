@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(186, 160, 139); /* Declara a cor de fundo do site */
+    font: 16px;
+	font-family: Helvetica, sans-serif; /* Define a família de fontes e o tamanho do texto (Sempre cite mais de uma fonte) */
+    overflow-x: hidden; /* Bloqueia o movimento horizontal do site */
+}
+
+#principal {
+    width: 100%; /* Faz o #principal ocupar toda a largura da página */
+    text-align: center; /* Centraliza o conteúdo dentro de #principal */
+}
+
+#menu {
+    background: #c5c5b2; /* Define o fundo do menu */
+    padding: 18px; /* Adiciona espaçamento interno no menu */
+}
+
+#conteudo {
+    height: 100%; /* Faz o conteúdo ocupar toda a altura da área disponível */
+    background: #e8e8d9; /* Define o fundo do conteúdo */
+    padding: 10px; /* Adiciona espaçamento interno no conteúdo */
+}
+
+#rodape {
+    text-align: center; /* Centraliza o texto no rodapé */
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: #4b566a; /* Define a cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Torna o texto dos links em negrito */
+    padding: 5px; /* Adiciona espaçamento interno nos links */
+}
+
+h1 {
+    color: #828271; /* Define a cor do título h1 */
+    font-size: 1.2em; /* Ajusta o tamanho da fonte do título h1 */
+}
+
+
+/*Inicio da tabela*/
+table {
+    width: 100%; /* Faz a tabela ocupar toda a largura da página */
+    border-collapse: collapse; /* Remove o espaço entre as bordas da tabela */
+    margin: 20px 0; /* Adiciona margem acima e abaixo da tabela */
+}
+
+th, td {
+    padding: 12px; /* Adiciona espaçamento interno nas células da tabela */
+    border: 1px solid #ddd; /* Adiciona borda nas células da tabela */
+    text-align: left; /* Alinha o texto à esquerda nas células */
+}
+
+th {
+    background-color: #f2f2f2; /* Define o fundo das células de cabeçalho da tabela */
+}
+
+/*FIm da tabela*/
